@@ -34,6 +34,15 @@ public class Employee {
                                           spouse == null, children.size());
     }
 }
+// EmployeeInfo.java
+public class EmployeeInfo {
+    private EmployeeDetails details;
+    private EmploymentDate employmentDate;
+    private Spouse spouse;
+    private List<Child> children;
+
+    // Constructors, getters, setters
+}
 
 class EmployeeDetails {
     private String employeeId;
