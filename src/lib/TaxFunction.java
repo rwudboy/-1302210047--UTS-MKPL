@@ -32,4 +32,5 @@ public class TaxFunction {
             return tax;
         }
     }
+	//
 }
