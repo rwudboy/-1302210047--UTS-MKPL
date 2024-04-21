@@ -87,3 +87,28 @@ class TaxCalculator {
         // Tax calculation logic
     }
 }
+// Salary.java
+public class Salary {
+    private Income monthlyIncome;
+    private Income otherMonthlyIncome;
+    private int annualDeductible;
+
+    public Salary(Income monthlyIncome, Income otherMonthlyIncome, int annualDeductible) {
+        this.monthlyIncome = monthlyIncome;
+        this.otherMonthlyIncome = otherMonthlyIncome;
+        this.annualDeductible = annualDeductible;
+    }
+
+    // Methods for setting and getting salary details
+}
+
+// Income.java
+public class Income {
+    private int amount;
+
+    public Income(int amount) {
+        this.amount = amount;
+    }
+
+    // Getter and setter methods
+}
